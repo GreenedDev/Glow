@@ -9,6 +9,7 @@ Permissions:
 
 - glow.command
 - glow.reload
+
 Placeholders:
 
 %glow_isenabled% - returns if player is glowing or not. Which player? depends on where you use this placeholder. You can modify what this placeholder returns in the config
