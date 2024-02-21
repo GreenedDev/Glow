@@ -1,0 +1,31 @@
+#Hello this is Glow plugin created by Greened. use /reloadglow to reload the plugin. The permission needed is glow.reload
+
+#The message that is sent when console executes the glow command
+only-players: "&cOnly players can to that!"
+
+#Permission denied message. the glow permission is glow.command
+permission-message: "&cYou don't have permission to execute this command!"
+
+#The message sent when disabling glow
+glow-enable: "&aYou enabled your &bGlowing &aeffect!"
+
+#The message sent when enabling glow
+glow-disable: "&cYou disabled your &bGlowing &ceffect!"
+
+#The reload message use /reloadglow to reload the plugin.
+reload-config: "&aSuccessfully reloaded!"
+
+#THIS IS PLACEHOLDERAPI SECTION
+
+#Available placeholders:
+#%glow_isenabled% - returns if player has glowing enabled or not. which player? depends on where you use this placeholder
+
+
+#return value for placeholder %glow_isenabled% if glow effect is enabled
+glowing-isenabled-yes: "&aEnabled"
+
+#text replacing placeholder when glowing is disabled for that player
+glowing-isenabled-no: "&cDisabled"
+#text replacing placeholder when glowing is enabled for that player
+glowing-isenabled-offline: "&4Player is offline"
+glowing-wrong-placeholder: "&4You probably used wrong placeholder. Please see placeholders list on the plugin page."

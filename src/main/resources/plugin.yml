@@ -1,0 +1,11 @@
+name: Glow
+version: '${project.version}'
+main: net.multylands.fun.Glow
+api-version: '1.20'
+author: GreenedDev
+softdepend: [PlaceholderAPI]
+commands:
+  glow:
+    aliases: [glowing, toggleglow, glowtoggle]
+  reloadglow:
+    aliases: [glowreload]
