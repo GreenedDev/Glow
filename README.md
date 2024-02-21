@@ -1,13 +1,16 @@
 This is my second plugin!
 
 Commands:
+
 /glow - If you are already glowing it will disable glow effect. If you're not, it will enable glow effect.
 /reloadglow - Reload the configuration
 
 Permissions:
+
 - glow.command
 - glow.reload
 Placeholders:
+
 %glow_isenabled% - returns if player is glowing or not. Which player? depends on where you use this placeholder. You can modify what this placeholder returns in the config
 Configuration:
 ```
