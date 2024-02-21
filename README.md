@@ -13,6 +13,7 @@ Permissions:
 Placeholders:
 
 %glow_isenabled% - returns if player is glowing or not. Which player? depends on where you use this placeholder. You can modify what this placeholder returns in the config
+
 Configuration:
 ```
 #Hello this is Glow plugin created by Greened. use /reloadglow to reload the plugin. The permission needed is glow.reload
@@ -47,6 +48,7 @@ glowing-isenabled-no: "&cDisabled"
 glowing-isenabled-offline: "&4Player is offline"
 glowing-wrong-placeholder: "&4You probably used wrong placeholder. Please see placeholders list on the plugin page."
  ```
+
 Messages:
 
 ![image](https://github.com/GreenedDev/Glow/assets/108997309/308cc998-5c66-4a0a-8df8-659a880b4b3d)
