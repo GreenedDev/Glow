@@ -1,4 +1,4 @@
-package net.multylands.fun;
+package net.multylands.fun.utils;
 
 import org.bukkit.ChatColor;
 

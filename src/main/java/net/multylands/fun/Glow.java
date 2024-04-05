@@ -2,6 +2,8 @@ package net.multylands.fun;
 
 import java.util.logging.Level;
 
+import net.multylands.fun.commands.GlowCommand;
+import net.multylands.fun.commands.GlowReloadCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -19,6 +21,7 @@ public class Glow extends JavaPlugin {
         }
         Bukkit.getLogger().log(Level.INFO, "Glowing plugin enabled!");
     }
+
     @Override
     public void onDisable() {
         for (Player all : Bukkit.getOnlinePlayers()) {

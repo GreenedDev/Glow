@@ -1,5 +1,7 @@
-package net.multylands.fun;
+package net.multylands.fun.commands;
 
+import net.multylands.fun.Glow;
+import net.multylands.fun.utils.ChatUtils;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -7,9 +9,11 @@ import org.bukkit.entity.Player;
 
 public class GlowCommand implements CommandExecutor {
     Glow plugin;
+
     public GlowCommand(Glow plugin) {
         this.plugin = plugin;
     }
+
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (!(sender instanceof Player)) {
